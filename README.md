@@ -30,7 +30,7 @@ npm install express
 Instalación correcta de Express mediante npm.
 
 2️⃣ Aplicación sin clúster
-Se crea un archivo JavaScript (por ejemplo app.js) con una aplicación Express sencilla que contiene dos rutas:
+Se crea un archivo JavaScript (por ejemplo app_simple.js) con una aplicación Express sencilla que contiene dos rutas:
 
 
 <img width="783" height="386" alt="2 codigo app_simple" src="https://github.com/user-attachments/assets/1907054a-108d-4dbe-944f-397d5f6ac110" />
@@ -103,7 +103,7 @@ npm install -g loadtest
 
 Instalación global de loadtest.
 
-🔬 Pruebas sin clúster
+Pruebas sin clúster
 loadtest http://localhost:3000/api/500000 -n 1000 -c 100
 
 <img width="603" height="351" alt="10 loadtest app_simple ligero" src="https://github.com/user-attachments/assets/9acd6bbc-d6b0-4949-bd18-f9975595f991" />
@@ -120,7 +120,7 @@ loadtest http://localhost:3000/api/500000000 -n 1000 -c 100
 
 Métricas empeoradas sin clúster.
 
-🔬 Pruebas con clúster
+Pruebas con clúster
 Se repiten exactamente las mismas pruebas con la aplicación clusterizada.
 
 
