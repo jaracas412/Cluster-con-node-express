@@ -1,6 +1,6 @@
 # Despliegue de una aplicación Node.js con Express en clúster
 
-## 📖 Introducción
+## Introducción
 
 En esta práctica se ha trabajado el despliegue de una aplicación **Node.js con Express**, analizando las diferencias de rendimiento entre una aplicación **sin clusterizar** y otra **utilizando clústeres**.
 
